@@ -69,7 +69,7 @@
     border-color: black !important;
 }
 
-@media only screen and (max-width: 960px) {
+@media only screen and (max-width:1440px) {
     .carousel-container{
         flex-direction: column;
         background-color: black;
