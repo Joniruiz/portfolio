@@ -16,7 +16,7 @@ const Footer = () => {
             </div>
             <div className='footer-sns'>
                 <div className='design-by'>
-                    Hecho y Creado por Ruiz Jonathan.    
+                      
                 </div>
                 <div className='sns-links'>
                     <a href="google.com" target="_blank" rel='noreferrer'>
