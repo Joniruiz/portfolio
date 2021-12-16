@@ -14,7 +14,16 @@ const Footer = () => {
             </div>
             <div className='footer-contact'>
                 <h3>Contactame</h3>
-                <p>
+                <p className='p-4 col-6 row'>
+                    <form>
+                        <label for='nombre'>Nombre</label>
+                        <input type='text' className='form-control' name='nombre' id='nombre' />
+                        <label for='email' className='form-label'>Email</label>
+                        <input type='email' className='form-control' name='email' id='email' />
+                        <label>Motivo de contacto</label>
+                        <textarea className='p-12 form-control'/>
+                        <button type='submit' className='mt-3 btn btn-light' rows="3">Enviar </button>
+                    </form>
                 </p>
                 
             </div>
@@ -23,7 +32,7 @@ const Footer = () => {
                       
                 </div>
                 <div className='sns-links'>
-                    <a href="google.com" target="_blank" rel='noreferrer'>
+                    <a href="https://www.linkedin.com/in/jonathan-ruizz/" target="_blank" rel='noreferrer'>
                         <i className='fab fa-linkedin linkedin'></i>
                     </a>
                     <a href="google.com" target="_blank" rel='noreferrer'>
