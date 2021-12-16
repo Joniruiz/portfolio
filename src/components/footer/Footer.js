@@ -34,7 +34,7 @@ const Footer = () => {
                     <a href="https://www.linkedin.com/in/jonathan-ruizz/" target="_blank" rel='noreferrer'>
                         <i className='fab fa-linkedin linkedin'></i>
                     </a>
-                    <a href="google.com" target="_blank" rel='noreferrer'>
+                    <a href="https://twitter.com/Jonaaruiiz" target="_blank" rel='noreferrer'>
                         <i className='fab fa-twitter twitter'></i>
                     </a>
                     <a href={`mailto:${mail}`} rel='noreferrer'>
