@@ -3,6 +3,9 @@ import './footer.css'
 
 
 const Footer = () => {
+
+    const mail = 'ruiz.jonathan2018@gmail.com'
+
     return (
         <footer className='footer'>
             <div className='footer-info'>
@@ -11,7 +14,8 @@ const Footer = () => {
             </div>
             <div className='footer-contact'>
                 <h3>Contactame</h3>
-                <p></p>
+                <p>
+                </p>
                 
             </div>
             <div className='footer-sns'>
@@ -25,7 +29,7 @@ const Footer = () => {
                     <a href="google.com" target="_blank" rel='noreferrer'>
                         <i className='fab fa-twitter twitter'></i>
                     </a>
-                    <a href="mailto:ruiz.jonathan2018@gmail.com" target="_blank" rel='noreferrer'>
+                    <a href={`mailto:${mail}`} rel='noreferrer'>
                         <i className='far fa-envelope envelope'></i>
                     </a>
                 </div>
