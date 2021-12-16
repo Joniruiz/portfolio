@@ -14,7 +14,7 @@ const Footer = () => {
             </div>
             <div className='footer-contact'>
                 <h3>Contactame</h3>
-                <p className='p-4 col-6 row'>
+                {/* <p className='p-4 col-6 row'>
                     <form>
                         <label for='nombre'>Nombre</label>
                         <input type='text' className='form-control' name='nombre' id='nombre' />
@@ -25,11 +25,10 @@ const Footer = () => {
                         <button type='submit' className='mt-3 btn btn-light' rows="3">Enviar </button>
                     </form>
                 </p>
-                
+                 */}
             </div>
             <div className='footer-sns'>
-                <div className='design-by'>
-                      
+                <div className='design-by'>      
                 </div>
                 <div className='sns-links'>
                     <a href="https://www.linkedin.com/in/jonathan-ruizz/" target="_blank" rel='noreferrer'>
@@ -43,7 +42,6 @@ const Footer = () => {
                     </a>
                 </div>
             </div>
-            
         </footer>
     )
 }

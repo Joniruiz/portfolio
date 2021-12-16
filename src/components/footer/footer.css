@@ -27,7 +27,9 @@
     width: 70%;
     margin: 0 auto;
 }
-
+.footer-contact{
+    display: none;
+}
 .footer-sns {
     width: 70%;
     position: absolute;
@@ -86,4 +88,5 @@
     .design-by{
         padding: 0 0 40px 0;
     }
+    
 }
